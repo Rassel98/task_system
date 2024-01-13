@@ -1,0 +1,29 @@
+name: task_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  sqflite: ^2.3.0
+  intl: ^0.19.0
+  path: ^1.8.3
+  smooth_page_indicator: ^1.1.0
+  shared_preferences:
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  mockito:
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - images/
+
